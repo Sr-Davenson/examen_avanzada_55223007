@@ -1,7 +1,7 @@
 <?php
 namespace producto;
 
-require 'App\Model\Conex\conex';
+include Conex/conex;
 
 class Productos{
 private $id;
@@ -11,7 +11,9 @@ private $precio_unitario;
 
 public function add(){
     $conex= new Conex();
-    $sql = d;
+    $sql = "INSERT INTO productos( nombre, cantidad, precio_unitario) VALUES ('". $nombre."','. $cantidad.','.$precio_unitario.')";
+    $sql->$conex->exeSQL();
+    $conex->closeDb();
+}
 }
 
-}

@@ -6,6 +6,6 @@
     <title>Listar</title>
 </head>
 <body>
-    <a href="index.php">Volver</a>
+    
 </body>
 </html>

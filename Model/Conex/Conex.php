@@ -23,4 +23,7 @@
         $this->conex->close();
     }
 
+    public function exeSQL(){
+        $this->conex->exec();
+    }
  }

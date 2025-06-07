@@ -1,4 +1,5 @@
 <?php
+
 namespace productoController;
 
 use Productos;
@@ -6,19 +7,27 @@ use Productos;
 include 'App/Model/Conex/Conex.php';
 include 'App/Model/Productos.php';
 
-class ProductosController{
+class ProductosController
+{
 
 
-public function registrar($requst){
-    $model = new Productos();
-    $prod = $requst['nombre'];
-    $prod = $requst['cantidad'];
-    $prod = $requst['Precio_Unitario'];
-    $prod = $model->add();
-    if($prod== true){
-        return true;
+    public function registrar($requst)
+    {
+        $model = new Productos();
+        $prod = $requst['nombre'];
+        $prod = $requst['cantidad'];
+        $prod = $requst['Precio_Unitario'];
+        $prod = $model->add();
+        if ($prod == true) {
+            return true;
+        }
+        return false;
     }
-    return false;
-}
-}
 
+    public function listar($requst)
+    {
+        $model = new Productos();
+        $p = $model->select();
+        return $p;
+    }
+}

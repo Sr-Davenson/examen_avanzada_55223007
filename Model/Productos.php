@@ -1,8 +1,8 @@
 <?php
 
-use conex\Conex;
+use con;
 
-include 'Conex/con';
+include 'Conex/Conex';
 
 class Productos{
 private $id;

@@ -17,6 +17,7 @@
         <input type="number" id="Precio_Unitario" min='1' request>
         <button type="submit">Guardar</button>
     </form>
+    <br>
     <a href="index.php">Volver</a>
 </body>
 </html>

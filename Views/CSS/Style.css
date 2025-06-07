@@ -10,6 +10,7 @@ a{
     padding: 15px;
     border: 1px #bbb solid;
     border-radius: 5px;
+    margin: 50px;
 }
 
 a:hover{

@@ -11,7 +11,14 @@ class ProductosController{
 
 public function registrar($requst){
     $model = new Productos();
-    $
+    $prod = $requst['nombre'];
+    $prod = $requst['cantidad'];
+    $prod = $requst['Precio_Unitario'];
+    $prod = $model->add();
+    if($prod== true){
+        return true;
+    }
+    return false;
 }
 }
 

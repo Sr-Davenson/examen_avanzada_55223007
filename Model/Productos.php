@@ -15,7 +15,6 @@ public function add(){
     $sql = "INSERT INTO productos( nombre, cantidad, precio_unitario) VALUES ('". $this->nombre."','. $this->cantidad.','.$this->precio_unitario.')";
     $conex->exeSQL($sql);
     $conex->closeDb();
-    return true;
 }
 
 public function select(){

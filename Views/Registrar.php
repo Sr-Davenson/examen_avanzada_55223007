@@ -6,7 +6,7 @@
     <title>Registrar</title>
 </head>
 <body>
-    <form action="Action/Regis.php" method="get">
+    <form action="Action/Regis.php" method="post">
         <label for="">Nombre</label>
         <input type="text" id="nombre" request>
         <label for="">Cantidad</label>

@@ -3,7 +3,7 @@
 
  use mysqli;
 
- class conex{
+ class Conex{
     private $host='localhost';
     private $user = 'root';
     private $password ='';
@@ -23,7 +23,7 @@
         $this->conex->close();
     }
 
-    public function exeSQL(){
-        $this->conex->exec();
+    public function exeSQL($data){
+        $this->conex->query($data);
     }
  }

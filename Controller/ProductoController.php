@@ -11,7 +11,7 @@ class ProductosController{
 
 public function registrar($requst){
     $model = new Productos();
-
+    $
 }
 }
 

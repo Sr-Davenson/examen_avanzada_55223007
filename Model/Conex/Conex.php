@@ -4,10 +4,10 @@
  use mysqli;
 
  class Conex{
-    private $host='localhost';
+    private $host ='localhost';
     private $user = 'root';
     private $password ='';
-    private $dataBase= 'inventario_db';
+    private $dataBase = 'inventario_db';
     private $conex = null;
 
     public function __construct(){

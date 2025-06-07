@@ -1,3 +1,17 @@
 body{
-    
+    background-color: rgb(100, 100, 100);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    background-color: blue;
+    color: aliceblue;
+    padding: 15px;
+    border: 1px #bbb solid;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: aqua;
 }

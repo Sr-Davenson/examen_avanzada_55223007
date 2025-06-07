@@ -1,12 +1,12 @@
 <?php
 
-use productoController;
+use ProductosController;
 
 include 'App/Model/Conex/Conex.php';
 include 'App/Model/Productos.php';
 include 'App/Contoller/ProductoController.php';
 
-$controller = new productoController();
+$controller = new ProductosController();
 
 ?>
 <!DOCTYPE html>
